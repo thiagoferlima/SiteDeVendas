@@ -58,7 +58,7 @@ footer{
     padding: 1.5rem;
     text-align: center;
     margin: 0 auto;
-    margin-top: 15rem;
+    margin-top: 20rem;
     max-width: 80%;
     padding-top: 3%; 
     border-radius: 20px;
@@ -74,16 +74,12 @@ footer{
         background-color: #fff;
         padding: 1.5rem;
         text-align: center;       
-        margin-top: 10rem;
+        margin-top: 12rem;
         max-width: 90%;
         padding-top: 3%; 
         border-radius: 20px;
-        margin-left: 10%;
-       
-       
-        
-       
-    
+        margin-left: 2rem;
+
     }
 
     }
@@ -116,14 +112,14 @@ figure{
 }
 }
 #logo-topo{
-    width: 7%;
-    height: 4%;
+    width: 10%;
+    height: 7%;
     margin-left: 15rem;
 } 
 @media(min-width: 300px) and (max-width: 820px){
     #logo-topo{
-        width: 15%;
-        height: 8%;
+        width: 25%;
+        height: 18%;
         margin: 0 auto;
     } 
 }
@@ -215,15 +211,33 @@ nav{
         padding-bottom: 1px;
     }   
 } 
-a{
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    
 
-    
-}
 a:hover{
     color: #000;
    
 }
+a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+@media(min-width:300px) and (max-width: 820px){
+    div.video{
+        position: relative;
+        padding-bottom: 50%;
+    
+
+    }
+    div.video > iframe{
+        position:absolute;
+        top: 5%;
+        left:5%;
+        width: 90%;
+        height: 90%;
+
+    
+
+    }
+}
+
