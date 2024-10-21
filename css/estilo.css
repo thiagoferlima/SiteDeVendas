@@ -112,11 +112,14 @@ h1{
 }
 h2{
     font-size: 1.9rem;
-    text-align: center;
-    
+    text-align: center;    
 }
 h2#title-topo{
     font-size: 2rem;
+}
+h2.titulo-corpo{
+    font-size: 2.5rem;
+    color: rgb(0, 0, 155);
 }
 
 h3{
@@ -125,10 +128,14 @@ h3{
 h4{
     font-size: 1.6rem;
 }
+.tecnologias{
+    color: #000;
+    text-shadow: none;
+}
+/*controles de imagens*/
 figure{
     text-align: center;
 }   
-/*controles de imagens*/
 .imagens-sites{
     border-radius: 3px;
     width: 20%;
@@ -203,7 +210,8 @@ figure{
 /*Controles de grids*/
 
 #grid-conteudo{
-    background-color: #dcdcdc;
+    background-color: #fff;
+    color: #000;
 }
 .grid{
     display: grid;
@@ -253,7 +261,7 @@ figure{
     padding-bottom: 5px;
     
 }
-/*aqui fim da cofigruacao de grids para o topo*/
+/*aqui inicia a configuracao de formulário*/
 
 #formulario{
     background-color: #dcdcdc;
